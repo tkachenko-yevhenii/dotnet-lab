@@ -1,0 +1,31 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+# BenchmarkDotNet results (copy the tables you need into the README)
+BenchmarkDotNet.Artifacts/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+
+# Test results
+TestResults/
+coverage*.xml
+*.trx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+appsettings.*.local.json
